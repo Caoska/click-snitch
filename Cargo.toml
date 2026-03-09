@@ -1,6 +1,9 @@
-[package]
-name = "click_snitch"
-version = "0.1.0"
-edition = "2024"
+[workspace]
+members = [
+    "crates\api",
+    "crates\ingest",
+    "crates\store",
+    "crates\models"
+]
 
-[dependencies]
+resolver = "2"
