@@ -125,15 +125,15 @@ cd backend
 cargo run
 ```
 
-1. Start demo Vite server:
+2. Start demo Vite server:
 ```bash
 cd demo
 npm run dev
 ```
 
-1. Open Vite dev URL in browser (http://localhost:5173)
-1. Click buttons/links → events appear in live list
-1. Open /events endpoint in backend to see raw JSONL storage
+3. Open Vite dev URL in browser (http://localhost:5173)
+4. Click buttons/links → events appear in live list
+5. Open /events endpoint in backend to see raw JSONL storage
 
 ## 5. Notes / Tips
 - Each developer runs their own backend → keeps data private
