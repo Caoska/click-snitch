@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ClickSnitch Demo</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; }
+    button, a { margin: 0.5rem; padding: 0.5rem 1rem; font-size: 1rem; }
+    ul { margin-top: 2rem; list-style-type: none; padding: 0; }
+    li { padding: 0.25rem 0; border-bottom: 1px solid #ddd; }
+  </style>
+</head>
+<body>
+
+  <h1>ClickSnitch Demo</h1>
+
+  <!-- Buttons & links -->
+  <div>
+    <button id="signup">Sign Up</button>
+    <button id="login">Login</button>
+    <a href="#" id="learn">Learn More</a>
+  </div>
+  <div>
+    <h2>Demo Form</h2>
+    <form id="demo-form">
+      <input type="text" placeholder="Email" required/>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <h2>Sessions</h2>
+  <div id="events"></div>
+  <script type="module" src="/main.ts"></script>
+</body>
+</html>
